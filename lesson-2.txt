@@ -7,7 +7,7 @@
 2.
 a. Local
 b. Working directory
-c. Repository
-d. Staging area
-e. Repository
-f. Repository
+c. Vẫn trong Working directory vì chưa add files
+d. file1: Staging area, 2 file còn lại vẫn trong Working directory
+e. file1: Repository, 2 file còn lại vẫn trong Working directory
+f. file1: Repository, 2 file còn lại vẫn trong Working directory
