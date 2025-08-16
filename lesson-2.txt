@@ -1,0 +1,13 @@
+1.
+- git init: khởi tạo thư mục được quản lí bởi Git
+- git add <file_name>: thêm 1 file
+- git add .: thêm toàn bộ file
+- git commit -m "message": commit code với message
+
+2.
+a. Local
+b. Working directory
+c. Repository
+d. Staging area
+e. Repository
+f. Repository
