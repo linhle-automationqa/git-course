@@ -1,27 +1,29 @@
-- Thẻ <div> (viết tắt của divide): dùng để chia các khối trong trang web
-- Thẻ <h1></h1> đến <h6></h6> (viết tắt của heading): dùng để tạo ra các header phân cấp
-theo thứ tự từ lớn đến bé.
-- Thẻ <form></form>: dùng để chứa một form thông tin.
-- Thẻ input: text, email, radio, checkbox, file, color, range, date
-- Thẻ textarea: hiển thị ô input, dạng to.
-- Thẻ radio button: tạo nút chọn một (radio).
-- Thẻ checkbox: tạo nút chọn nhiều lựa chọn (checkbox).
-- Thẻ list và dropdown: hiển thị danh sách hoặc menu thả xuống.
-- Thẻ button: tạo nút bấm.
-- Thẻ table: hiển thị bảng dữ liệu.
-    - thead = table heading
-        - tr = table row = 1 dòng
-            - th: table heading: text in đậm
-    - tbody
-        - tr -> td = table data
-- Thẻ date picker: tạo bộ chọn ngày.
-- Thẻ slider: tạo thanh trượt.
-- Thẻ iframe: hiển thị nội dung từ một trang web khác bên trong trang hiện tại.
+// Cấu trúc DOM cơ bản của một trang web bao gồm thẻ gì?
 
-2.
-- Thẻ table: hiển thị bảng dữ liệu.
-    - thead = table heading
-        - tr = table row = 1 dòng
-            - th: table heading: text in đậm
-    - tbody
-        - tr -> td = table data
+- <!DOCTYPE html>: Cho browser biết tài liệu này là HTML5 phiên bản hiện đại nhất - giúp đảm bảo trang web được hiển thị đúng chuẩn
+- <html>: Là thẻ gốc, bao quanh toàn bộ nội dung trang web
+
+- <head>: Chứa các thông tin metadata (Dữ liệu mô tả về trang web) mà người dùng không nhìn thấy trực tiếp trên UI
+    - Các thẻ con phổ biến trong <head>
+        - <title>: Đặt tiêu đề hiển thị trên tab browser
+        - <meta>: Cung cấp thông tin như mã hóa ký tự hoặc mô tả cho SEO
+        - <link>: Liên kết đến file bên ngoài như CSS
+        - <script>: Liên kết hoặc nhúng code Javascript
+
+- <body>: Chứa toàn bộ nội dung hiển thị trên trang web mà người dùng có thể thấy: text, image, table,...
+    - Các thẻ phổ biến trong <body>
+        - <h1> -> <h6>: Heading từ lớn -> nhỏ
+        - <p>: Đoạn văn
+        - <div>: Khối để nhóm các phần tử
+        - <a>: Liên kết 
+        - <img>: Hình ảnh 
+        - <ul>, <ol>, <li>: Danh sách không thứ tự hoặc có thứ tự
+
+// Hãy mô tả cấu trúc html của 1 bảng (table)
+
+- <table>: Thẻ bao quanh bảng
+- <thead>: Phần tiêu đề bảng
+- <tbody>: Phần nội dung bảng
+- <tr>: Hàng
+- <th>: Ô tiêu đề
+- <td>: Ô dữ liệu
